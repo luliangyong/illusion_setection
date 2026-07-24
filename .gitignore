@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Streamlit secrets (包含 API Key，切勿提交)
+.streamlit/secrets.toml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reasonix
+reasonix.toml
+
+# Jupyter
+.ipynb_checkpoints/
